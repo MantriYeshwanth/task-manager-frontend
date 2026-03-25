@@ -105,27 +105,27 @@ http://localhost:5001/api
 ## Screenshots
 ---
 Sign-up
-
-<img width="872" height="738" alt="Screenshot 2026-03-25 at 4 34 42 PM" src="https://github.com/user-attachments/assets/f9d91556-3add-4cbc-8ab5-1819d02120b7" />
 ---
+<img width="872" height="738" alt="Screenshot 2026-03-25 at 4 34 42 PM" src="https://github.com/user-attachments/assets/f9d91556-3add-4cbc-8ab5-1819d02120b7" />
+
 
 Login
+---
 
 <img width="808" height="660" alt="Screenshot 2026-03-25 at 4 34 55 PM" src="https://github.com/user-attachments/assets/49d5a966-a2b9-4c46-9650-3e82738968c8" />
----
+
 
 Dashboard
-
+---
 <img width="1439" height="774" alt="Screenshot 2026-03-25 at 4 35 24 PM" src="https://github.com/user-attachments/assets/99b84aac-7f41-4f51-a9d1-c56cbcaf5298" />
----
+
 Search tasks with filters
-
+---
 <img width="1440" height="779" alt="Screenshot 2026-03-25 at 4 35 35 PM" src="https://github.com/user-attachments/assets/29b20022-21bc-4fd3-a82f-ed3e61020594" />
----
-Dark Mode
 
-<img width="1440" height="775" alt="Screenshot 2026-03-25 at 4 35 47 PM" src="https://github.com/user-attachments/assets/ffb3829c-f3e1-4833-a088-4ef2c72ffa42" />
+Dark Mode
 ---
+<img width="1440" height="775" alt="Screenshot 2026-03-25 at 4 35 47 PM" src="https://github.com/user-attachments/assets/ffb3829c-f3e1-4833-a088-4ef2c72ffa42" />
 
 
 
