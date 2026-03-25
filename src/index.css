@@ -1,0 +1,239 @@
+/* Reset */
+* {
+  margin: 0;
+  padding: 0;
+  box-sizing: border-box;
+  font-family: sans-serif;
+}
+
+/* Body */
+body {
+  background-color: #f5f7fa;
+  color: #333;
+}
+
+/* Container */
+.container {
+  max-width: 1100px;
+  margin: auto;
+  padding: 1.5rem;
+}
+
+/* Headings */
+h1, h2, h3 {
+  margin-bottom: 0.8rem;
+}
+
+/* Buttons */
+button {
+  padding: 0.5rem 1rem;
+  border: none;
+  border-radius: 6px;
+  cursor: pointer;
+  background-color: #4f46e5;
+  color: white;
+  transition: 0.2s;
+}
+
+button:hover {
+  background-color: #4338ca;
+}
+
+button:disabled {
+  background-color: #ccc;
+  cursor: not-allowed;
+}
+
+/* Inputs */
+input, textarea, select {
+  padding: 0.5rem;
+  border: 1px solid #ddd;
+  border-radius: 6px;
+  width: 100%;
+}
+
+label {
+  display: block;
+  margin-bottom: 0.5rem;
+}
+
+/* Navbar */
+.navbar {
+  background: white;
+  border-bottom: 1px solid #eee;
+}
+
+.nav-inner {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+/* Cards */
+.card {
+  background: white;
+  padding: 1rem;
+  border-radius: 10px;
+  box-shadow: 0 2px 6px rgba(0,0,0,0.05);
+}
+
+.stat-card p {
+  font-size: 1.5rem;
+  font-weight: bold;
+}
+
+/* Task Cards */
+.task-card {
+  margin-bottom: 1rem;
+}
+
+.task-header {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}
+
+.status {
+  padding: 0.2rem 0.5rem;
+  border-radius: 6px;
+  font-size: 0.8rem;
+  color: white;
+}
+
+.status.todo {
+  background: gray;
+}
+
+.status.in-progress {
+  background: orange;
+}
+
+.status.done {
+  background: green;
+}
+
+.task-meta {
+  margin: 0.5rem 0;
+  font-size: 0.9rem;
+  color: #666;
+}
+
+.task-actions {
+  display: flex;
+  gap: 0.5rem;
+}
+
+.delete {
+  background: #ef4444;
+}
+
+/* Dashboard Layout */
+.stats-grid {
+  display: grid;
+  grid-template-columns: repeat(auto-fit, minmax(150px, 1fr));
+  gap: 1rem;
+  margin-bottom: 1.5rem;
+}
+
+.filters {
+  display: grid;
+  gap: 0.5rem;
+  margin-bottom: 1rem;
+}
+
+.form {
+  display: grid;
+  gap: 0.5rem;
+  max-width: 500px;
+  margin-bottom: 1.5rem;
+}
+
+/* Layout: auth form center */
+.auth-page {
+  min-height: 100vh;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.auth-form {
+  width: 100%;
+  max-width: 420px;
+  background: white;
+  padding: 1.5rem;
+  border-radius: 10px;
+  box-shadow: 0 6px 20px rgba(0,0,0,0.1);
+}
+
+.auth-form h2 {
+  margin-bottom: 1rem;
+}
+
+.auth-form-inner {
+  display: grid;
+  gap: 0.75rem;
+}
+
+.auth-form-inner label {
+  display: block;
+  font-size: 0.9rem;
+}
+
+.auth-form-inner input {
+  margin-top: 0.35rem;
+}
+
+.auth-form p {
+  margin-top: 0.8rem;
+  font-size: 0.9rem;
+}
+
+/* Dark mode */
+body.dark {
+  background: #111;
+  color: #eee;
+}
+
+body.dark .navbar {
+  background: #1e1e1e;
+  border-bottom: 1px solid #333;
+}
+
+body.dark .card {
+  background: #1e1e1e;
+  box-shadow: 0 2px 8px rgba(0,0,0,0.4);
+}
+
+body.dark input,
+body.dark textarea,
+body.dark select {
+  background: #2a2a2a;
+  color: white;
+  border: 1px solid #444;
+}
+
+body.dark button {
+  background-color: #4f46e5;
+  color: #fff;
+}
+
+body.dark button:hover {
+  background-color: #3730a3;
+}
+
+body.dark .task-meta {
+  color: #aaa;
+}
+
+body.dark .status.todo {
+  background: #6b7280;
+}
+
+body.dark .status.in-progress {
+  background: #f59e0b;
+}
+
+body.dark .status.done {
+  background: #22c55e;
+}
