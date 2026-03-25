@@ -102,7 +102,8 @@ http://localhost:5001/api
 
 ---
 
-## 📸 Screenshots
+## Screenshots
+<img width="872" height="738" alt="Screenshot 2026-03-25 at 4 34 42 PM" src="https://github.com/user-attachments/assets/f9d91556-3add-4cbc-8ab5-1819d02120b7" />
 
 
 ---
