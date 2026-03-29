@@ -6,7 +6,7 @@ A modern React-based task management dashboard that allows users to manage tasks
 
 ## Live Demo
 
-(Coming Soon – will be added after deployment)
+https://task-manager-frontend-pi-three.vercel.app/
 
 ---
 
