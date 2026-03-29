@@ -100,6 +100,14 @@ Make sure backend is running at:
 http://localhost:5001/api
 ```
 
+If you deploy the frontend and backend separately, set the backend URL in a Vite environment variable:
+
+```
+VITE_BACKEND_URL=https://your-backend-domain.com/api
+```
+
+Then restart the frontend server.
+
 ---
 
 ## Screenshots

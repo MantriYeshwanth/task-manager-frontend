@@ -1,7 +1,7 @@
 import axios from "axios";
 
 const instance = axios.create({
-  baseURL: "https://task-manager-backend-ngp5.onrender.com",
+  baseURL: import.meta.env.VITE_BACKEND_URL || "http://localhost:5001/api",
 });
 
 // Attach token automatically
